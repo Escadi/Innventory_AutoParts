@@ -14,14 +14,8 @@ export class LoginPagePage implements OnInit {
   constructor() { }
 
   ngOnInit() {
+
   }
 
-  login() {
-    if (!this.email || !this.password) {
-      console.warn('Por favor, completa todos los campos.');
-      return;
-    }
-    console.log('Login con:', this.email, this.password);
-    // TODO: Implementar la lógica de autenticación con el servicio
-  }
+
 }
